@@ -2,8 +2,6 @@ from django.urls import path
 
 from . import views
 
-#polls comment
-
 app_name = 'polls'
 urlpatterns = [
     path('', views.IndexView.as_view(), name='index'),
